@@ -1,0 +1,19 @@
+# Environment & secrets
+.env
+*.key
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Large datasets/models (don't push these to GitHub)
+PlantVillage/
+real_world_test_images/
+*.h5
+*.pt
+*.pth
+
+# OS/editor junk
+.DS_Store
+.vscode/
